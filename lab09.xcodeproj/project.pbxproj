@@ -13,6 +13,8 @@
 		B02753BF265B9961006B5336 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02753BE265B9961006B5336 /* Preview Assets.xcassets */; };
 		B02753CA265B9961006B5336 /* lab09Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02753C9265B9961006B5336 /* lab09Tests.swift */; };
 		B02753D5265B9961006B5336 /* lab09UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02753D4265B9961006B5336 /* lab09UITests.swift */; };
+		B02753E6265B996E006B5336 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02753E5265B996E006B5336 /* model.swift */; };
+		B02753EB265B9AB2006B5336 /* vm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02753EA265B9AB2006B5336 /* vm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		B02753D0265B9961006B5336 /* lab09UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lab09UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02753D4265B9961006B5336 /* lab09UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab09UITests.swift; sourceTree = "<group>"; };
 		B02753D6265B9961006B5336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B02753E5265B996E006B5336 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		B02753EA265B9AB2006B5336 /* vm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +99,13 @@
 		B02753B6265B995D006B5336 /* lab09 */ = {
 			isa = PBXGroup;
 			children = (
+				B02753E5265B996E006B5336 /* model.swift */,
 				B02753B7265B995D006B5336 /* lab09App.swift */,
 				B02753B9265B995D006B5336 /* ContentView.swift */,
 				B02753BB265B9961006B5336 /* Assets.xcassets */,
 				B02753C0265B9961006B5336 /* Info.plist */,
 				B02753BD265B9961006B5336 /* Preview Content */,
+				B02753EA265B9AB2006B5336 /* vm.swift */,
 			);
 			path = lab09;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B02753BA265B995D006B5336 /* ContentView.swift in Sources */,
+				B02753E6265B996E006B5336 /* model.swift in Sources */,
+				B02753EB265B9AB2006B5336 /* vm.swift in Sources */,
 				B02753B8265B995D006B5336 /* lab09App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
